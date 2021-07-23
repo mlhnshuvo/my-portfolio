@@ -19,7 +19,7 @@ const Contact = ({ goTo }) => {
 
     const onSubmitHandler = (event) => {
         event.preventDefault();
-        Axios.post('https://my-portfolio-mhs.herokuapp.com/send', state)
+        Axios.post('/send', state)
             .then((res) => {
                 alert(res.data)
             })
