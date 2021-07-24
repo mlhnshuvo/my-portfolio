@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import Axios from 'axios'
+import Axios from '../utils/Axios'
 
 const Contact = ({ goTo }) => {
     const [state, setState] = useState({
@@ -19,6 +19,7 @@ const Contact = ({ goTo }) => {
 
     const onSubmitHandler = (event) => {
         event.preventDefault();
+
         Axios.post('/send', state)
             .then((res) => {
                 alert(res.data)
