@@ -1,7 +1,13 @@
 import React from 'react';
 import Me from "../assets/images/mhsit.jpg"
+import resume from "../assets/resume/resume.pdf"
+import { saveAs } from 'file-saver';
 
 const Sidebar = ({ refHandler }) => {
+
+  const handler = () => {
+    saveAs(resume, "mahamudulhasanshuvo.pdf");
+  }
 
   return (
     <div className="sidebar">
@@ -9,7 +15,9 @@ const Sidebar = ({ refHandler }) => {
         <img className="sidebar__avatar" src={Me} alt="" />
         <h2>Mahamudul Hasan Shuvo</h2>
         <p>Professional full stack developer</p>
-        <button className="btn sidebar__resume">Download resume</button>
+        <button
+          onClick={handler}
+          className="btn sidebar__resume">Download resume</button>
         <hr />
         <ul className="sidebar__ul">
           <li
