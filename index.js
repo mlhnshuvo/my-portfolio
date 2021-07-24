@@ -16,10 +16,12 @@ let transporter = nodemailer.createTransport({
 const port = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
     res.send('This is a simple app for sending email')
 })
 
 app.post('/send', (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
     const { name, email, message } = req.body
 
     const messageHtml = `
