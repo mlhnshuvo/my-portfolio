@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import Axios from 'axios'
+import Axios from '../utils/Axios'
 
 const Contact = ({ goTo }) => {
     const [state, setState] = useState({
