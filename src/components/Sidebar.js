@@ -24,6 +24,9 @@ const Sidebar = ({ refHandler }) => {
             onClick={() => refHandler('about')}
             className="sidebar__li">About</li>
           <li
+            onClick={() => refHandler('skills')}
+            className="sidebar__li">Skills</li>
+          <li
             onClick={() => refHandler('project')}
             className="sidebar__li">Projects</li>
           <li

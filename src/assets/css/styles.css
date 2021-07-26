@@ -1,7 +1,8 @@
 :root {
   --font-family-all-text: "Roboto", sans-serif;
-  --background-color: #efefef;
+  --main-background-color: #efefef;
   --text-color: #efefef;
+  --background-color: #dc635b;
 }
 
 * {
@@ -10,7 +11,7 @@
 
 body {
   font-family: var(--font-family-all-text);
-  background-color: var(--background-color);
+  background-color: var(--main-background-color);
   color: var(--text-color);
   margin: 0;
   padding: 0;
@@ -21,7 +22,7 @@ body {
   cursor: pointer;
   border-radius: 20px;
   color: var(--text-color);
-  background: #dc635b;
+  background: var(--background-color);
   transition: 0.3s;
   border: none;
 }
@@ -80,7 +81,7 @@ body {
 .sidebar__li {
   cursor: pointer;
   padding: 5px 0px;
-  background-color: #dc635b;
+  background-color: var(--background-color);
   margin: 20px 0;
 }
 
@@ -98,7 +99,7 @@ body {
 
 .sidebar__icon {
   margin: 12px;
-  background-color: #dc635b;
+  background-color: var(--background-color);
   color: #efefef;
   padding: 10px 10px;
   border-radius: 50%;
@@ -109,9 +110,7 @@ body {
 .sidebar__icon:hover {
   box-shadow: 0 0 5px 1px;
 }
-.sidebar__footer {
-  margin-top: 50px;
-}
+
 
 /* Main */
 .main {
@@ -126,8 +125,10 @@ body {
   overflow-x: hidden;
 }
 
+/* About */
+
 .about__image {
-  width: 300px;
+  width: 210px;
 }
 
 .about__section {
@@ -138,6 +139,14 @@ body {
   padding: 0 75px;
   text-align: justify;
   line-height: 25px;
+}
+
+/* Skills */
+
+.skills__charts {
+  width: 90%;
+  height: 320px;
+  margin: auto;
 }
 
 /* Projects */
@@ -211,4 +220,11 @@ body {
 
 .item-exit-active {
   transition: opacity 500ms ease-in;
+}
+
+.contact__loading {
+  background-color: var(--background-color);
+  padding: 0px 25px;
+  width: 85px;
+  border-radius: 20px;
 }
