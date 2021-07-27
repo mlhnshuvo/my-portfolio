@@ -71,7 +71,7 @@ const Contact = ({ goTo }) => {
                 {loading ? (
                     <img className="contact__loading" src={Loading} alt="" />
                 ) : (
-                    <button className="contact__btn btn btn--project" type="submit">Send</button>
+                    <button className="contact__btn my-btn btn--project" type="submit">Send</button>
                 )}
 
             </form>

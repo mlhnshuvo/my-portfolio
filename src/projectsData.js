@@ -1,6 +1,6 @@
 import MernShoppingList from './assets/images/projects/shopping-list.jpg';
 import FaceBookLite from './assets/images/projects/facebookLite.jpg'
-import ShoppingCard from './assets/images/projects/shoppingCard.jpg'
+import ShoppingCard from './assets/images/projects/react-shopping-cart.jpg'
 import TodoApp from './assets/images/projects/react-todo-app.jpg'
 import PollAll from './assets/images/projects/react-poll-app.jpg'
 import MyStaticPortfolio from './assets/images/projects/static-portfolio.jpg'
@@ -12,7 +12,7 @@ import WeatherApp from './assets/images/projects/js-weather-app-with-dom.jpg'
 const projects = [
     {
         image: MernShoppingList,
-        name: 'This is a mern stack shopping app inspired by google shopping list app',
+        name: 'This is a mern stack shopping list app inspired by google shopping list app',
         type: 'running',
         github: 'https://github.com/mhshuvoit/mern-shopping-list-app',
         live: 'https://mern-shopping-list-mhs.herokuapp.com'

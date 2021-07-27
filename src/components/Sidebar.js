@@ -13,11 +13,11 @@ const Sidebar = ({ refHandler }) => {
     <div className="sidebar">
       <div className="sidebar__content">
         <img className="sidebar__avatar" src={Me} alt="" />
-        <h2>Mahamudul Hasan Shuvo</h2>
+        <h3>Mahamudul Hasan Shuvo</h3>
         <p>Professional full stack developer</p>
         <button
           onClick={handler}
-          className="btn sidebar__resume">Download resume</button>
+          className="my-btn sidebar__resume">Download resume</button>
         <hr />
         <ul className="sidebar__ul">
           <li

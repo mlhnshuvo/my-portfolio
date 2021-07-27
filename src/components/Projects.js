@@ -27,15 +27,15 @@ const Projects = ({ goTo }) => {
             <p>My all own and contribution projects are here</p>
             <hr />
             <button
-                className="btn btn--project"
+                className="my-btn btn--project"
                 onClick={handler}
             >All</button>
             <button
-                className="btn btn--project"
+                className="my-btn btn--project"
                 onClick={handler}
                 value="recent">Recent</button>
             <button
-                className="btn btn--project"
+                className="my-btn btn--project"
                 onClick={handler}
                 value="running">Running</button>
             <div>
@@ -45,10 +45,10 @@ const Projects = ({ goTo }) => {
                         <p>{project.name}</p>
                         <div className="project__btn">
                             <a target="_blank" rel="noopener noreferrer" href={project.github}>
-                                <button className="btn btn--project">Github</button>
+                                <button className="my-btn btn--project">Github</button>
                             </a>
                             <a target="_blank" rel="noopener noreferrer" href={project.live}>
-                                <button className="btn btn--project">Live</button>
+                                <button className="my-btn btn--project">Live</button>
                             </a>
                         </div>
                     </div>
