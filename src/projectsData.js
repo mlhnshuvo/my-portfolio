@@ -46,8 +46,8 @@ const projects = [
     {
         image: ReactBlogApp,
         name: 'Blog app but it is not working in live because upgrade required of this third party api. Check it locally.',
-        github: 'https://github.com/mhshuvoit/react-blog-app',
-        live: 'https://react-blog-app-mhs.netlify.app'
+        github: 'https://github.com/mhshuvoit/blog-app',
+        live: 'https://blog-app-mhs.netlify.app'
     },
     {
         image: WeatherApp,
