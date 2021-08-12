@@ -1,9 +1,3 @@
-@media (max-width: 767px) {
-  .sidebar {
-    display: none;
-  }
-}
-
 @media (max-width: 992px) {
   .contact__form-control-textaria {
     width: 400px;
@@ -16,5 +10,29 @@
   .skills__backend,
   .skills__tools {
     flex: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 367px) {
+  body {
+    font-size: 12px;
+  }
+  .contact__form-control {
+    width: 180px;
+  }
+  .contact__form-control-textaria {
+    width: 190px;
+  }
+  .btn--project {
+    padding: 5px 15px;
+  }
+  .about__para {
+    line-height: 20px;
   }
 }
