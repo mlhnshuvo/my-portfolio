@@ -13,7 +13,7 @@ const Sidebar = ({ refHandler }) => {
     <div className="sidebar">
       <div className="sidebar__content">
         <img className="sidebar__avatar" src={Me} alt="" />
-        <h3>Mahamudul Hasan Shuvo</h3>
+        <h6>Mahamudul Hasan Shuvo</h6>
         <p>Professional full stack developer</p>
         <button
           onClick={handler}

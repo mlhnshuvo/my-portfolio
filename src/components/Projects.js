@@ -38,7 +38,7 @@ const Projects = ({ goTo }) => {
                 className="my-btn btn--project"
                 onClick={handler}
                 value="running">Running</button>
-            <div>
+            <div className="project__flex container">
                 {state.map(project => (
                     <div key={project.live} className="card">
                         <img className="project__image" src={project.image} alt="" />

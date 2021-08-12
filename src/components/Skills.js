@@ -13,25 +13,25 @@ const Skills = ({ goTo }) => {
             <h2>My Skills</h2>
             <p>Don't possible to judge own skill by yourself but should follow convention</p>
             <hr/>
-            <div className="skills__section">
+            <div className="skills__section container">
                 <div className="skills__frontend">
                     <h4>Frontend Technologies</h4>
                     <hr />
                     <div className="skills__main">
                         <p className="skills__name">Javascript</p>
-                        <ProgressBar className="skills__bar" now={94} label={`${94}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">React</p>
-                        <ProgressBar className="skills__bar" now={97} label={`${97}%`} />
+                        <ProgressBar className="skills__bar" now={95} label={`${95}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Redux (State managment)</p>
-                        <ProgressBar className="skills__bar" now={89} label={`${89}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Easy-Peasy (State managment)</p>
-                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
+                        <ProgressBar className="skills__bar" now={95} label={`${95}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">HTML</p>
@@ -39,23 +39,23 @@ const Skills = ({ goTo }) => {
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">CSS</p>
-                        <ProgressBar className="skills__bar" now={91} label={`${91}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">BEM (CSS Architecture)</p>
-                        <ProgressBar className="skills__bar" now={93} label={`${93}%`} />
+                        <ProgressBar className="skills__bar" now={95} label={`${95}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">SASS (CSS Processor)</p>
-                        <ProgressBar className="skills__bar" now={81} label={`${81}%`} />
+                        <ProgressBar className="skills__bar" now={80} label={`${80}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Bootstrap / React Bootstrap / ReactStrap</p>
-                        <ProgressBar className="skills__bar" now={93} label={`${93}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Material UI</p>
-                        <ProgressBar className="skills__bar" now={77} label={`${77}%`} />
+                        <ProgressBar className="skills__bar" now={75} label={`${75}%`} />
                     </div>
                 </div>
                 <div className="skills__backend">
@@ -63,15 +63,15 @@ const Skills = ({ goTo }) => {
                     <hr />
                     <div className="skills__main">
                         <p className="skills__name">Nodejs</p>
-                        <ProgressBar className="skills__bar" now={71} label={`${71}%`} />
+                        <ProgressBar className="skills__bar" now={70} label={`${70}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Expressjs</p>
-                        <ProgressBar className="skills__bar" now={91} label={`${91}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Mongodb</p>
-                        <ProgressBar className="skills__bar" now={72} label={`${72}%`} />
+                        <ProgressBar className="skills__bar" now={65} label={`${65}%`} />
                     </div>
                 </div>
                 <div className="skills__tools">
@@ -79,11 +79,11 @@ const Skills = ({ goTo }) => {
                     <hr />
                     <div className="skills__main">
                         <p className="skills__name">Git</p>
-                        <ProgressBar className="skills__bar" now={82} label={`${82}%`} />
+                        <ProgressBar className="skills__bar" now={75} label={`${75}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Webpack</p>
-                        <ProgressBar className="skills__bar" now={57} label={`${57}%`} />
+                        <ProgressBar className="skills__bar" now={60} label={`${60}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">JOSN</p>
@@ -91,7 +91,7 @@ const Skills = ({ goTo }) => {
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">UML Diagram</p>
-                        <ProgressBar className="skills__bar" now={91} label={`${91}%`} />
+                        <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ const Main = ({ goTo }) => {
     }, [goTo]);
 
     return (
-        <div className="main">
+        <div className="main container">
             <About goTo={state.about} />
             <Skills goTo={state.skills} />
             <Projects goTo={state.project} />

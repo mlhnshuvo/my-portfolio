@@ -13,7 +13,7 @@ const About = ({ goTo }) => {
             <h2>About Me</h2>
             <p>As a Javascript lover now I am working as a Full Stack Web Developer</p>
             <hr />
-            <div className="about__section">
+            <div className="about__section container">
                 <img className="about__image" src={Me} alt="" />
                 <p className="about__para">Love new technology and always ready to face new challenges. I will develop a modern and responsive website with the latest technologies. I am a full-time dedicator so I am very serious to satisfy my clients. Feel free to contact me as a friend. Always available for questions and discussions of anything you need. Your satisfaction is my first priority.</p>
             </div>

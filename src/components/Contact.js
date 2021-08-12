@@ -44,7 +44,7 @@ const Contact = ({ goTo }) => {
             <h2>Contact Me</h2>
             <p>Your message will be sent to admin email</p>
             <hr />
-            <form onSubmit={onSubmitHandler}>
+            <form onSubmit={onSubmitHandler} className="container">
                 <input
                     className="contact__form-control"
                     type="text"

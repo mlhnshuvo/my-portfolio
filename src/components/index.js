@@ -11,8 +11,16 @@ const Index = () => {
     return (
         <div className="bind">
             <div className="bind__overlay">
-                <Sidebar refHandler={refHandler} />
-                <Main goTo={state} />
+                <div className="row">
+                    <div className="col-lg-2 col-md-4">
+                        <Sidebar refHandler={refHandler} />
+                    </div>
+                    <div className="col-lg-10 col-md-8">
+                        <div>
+                            <Main goTo={state} />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
