@@ -8,12 +8,13 @@ import PstToHtml from './assets/images/projects/psd-to-html.jpg'
 import LandingPage from './assets/images/projects/landing-page.jpg'
 import ReactBlogApp from './assets/images/projects/react-blog-app.jpg'
 import WeatherApp from './assets/images/projects/js-weather-app-with-dom.jpg'
+import SchoolEssayContest from './assets/images/projects/school-essay-contest-website.jpg'
 
 const projects = [
     {
         image: ShoppingList,
         name: 'This is a reactjs shopping list app inspired by google shopping list app',
-        type: 'running',
+        type: 'recent',
         github: 'https://github.com/mhshuvoit/shopping-list-app',
         live: 'https://shopping-list-app-mhs.netlify.app'
     },
@@ -26,6 +27,12 @@ const projects = [
     },
     {
         image: ShoppingCard,
+        name: 'This is a shopping cart application with react',
+        github: 'https://github.com/mhshuvoit/react-shopping-cart-app',
+        live: 'https://react-shopping-cart-mhs.netlify.app'
+    },
+    {
+        image: SchoolEssayContest,
         name: 'This is a shopping cart application with react',
         type: 'recent',
         github: 'https://github.com/mhshuvoit/react-shopping-cart-app',
