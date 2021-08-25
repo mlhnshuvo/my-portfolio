@@ -40,9 +40,9 @@ const Projects = ({ goTo }) => {
                 value="running">Running</button>
             <div className="project__flex container">
                 {state.map(project => (
-                    <div key={project.live} className="card">
+                    <div key={project.live} className="card" data-aos="zoom-in">
                         <img className="project__image" src={project.image} alt="" />
-                        <p>{project.name}</p>
+                        <p className="mt-3">{project.name}</p>
                         <div className="project__btn">
                             <a target="_blank" rel="noopener noreferrer" href={project.github}>
                                 <button className="my-btn btn--project">Github</button>
