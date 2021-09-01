@@ -8,7 +8,7 @@ import PstToHtml from './assets/images/projects/psd-to-html.jpg'
 import LandingPage from './assets/images/projects/landing-page.jpg'
 import ReactBlogApp from './assets/images/projects/react-blog-app.jpg'
 import WeatherApp from './assets/images/projects/js-weather-app-with-dom.jpg'
-import SchoolEssayContest from './assets/images/projects/shcool-essay-contest-website.jpg'
+import EssayContest from './assets/images/projects/essay-contest-website.jpg'
 
 const projects = [
     {
@@ -32,11 +32,11 @@ const projects = [
         live: 'https://react-shopping-cart-mhs.netlify.app'
     },
     {
-        image: SchoolEssayContest,
-        name: 'This is a school essay contest website that was created for a client',
+        image: EssayContest,
+        name: 'This is an essay contest website that was created for a client',
         type: 'recent',
-        github: 'https://github.com/mhshuvoit/school-essay-contest-website',
-        live: 'https://school-essay-contest-website-mhs.netlify.app'
+        github: 'https://github.com/mhshuvoit/essay-contest-website',
+        live: 'https://essay-contest-website-mhs.netlify.app'
     },
     {
         image: PollAll,
