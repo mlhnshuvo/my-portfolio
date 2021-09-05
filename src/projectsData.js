@@ -22,8 +22,8 @@ const projects = [
         image: FaceBookLite,
         name: 'This is a mern stack app inspired by facebook',
         type: 'running',
-        github: 'https://github.com/mhshuvoit/mern-facebook-lite',
-        live: 'https://mern-facebook-lite-mhs.herokuapp.com'
+        github: 'https://github.com/mhshuvoit/facebook-lite-app',
+        live: 'https://facebook-lite-app-mhs.herokuapp.com'
     },
     {
         image: ShoppingCard,
