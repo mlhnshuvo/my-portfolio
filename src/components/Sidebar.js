@@ -35,13 +35,13 @@ const Sidebar = ({ refHandler }) => {
         </ul>
         <hr />
         <div className="sidebar__icon-div">
-          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://github.com/mhshuvoit">
+          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://github.com/mlhnshuvo">
             <i className="fab fa-github"></i>
           </a>
-          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/mhshuvoit">
+          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/mlhnshuvo">
             <i className="fab fa-facebook"></i>
           </a>
-          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mhshuvoit">
+          <a className="sidebar__icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mlhnshuvo">
             <i className="fab fa-linkedin"></i>
           </a>
         </div>

@@ -30,21 +30,21 @@ const projects = [
         image: ShoppingCard,
         name: 'This is a shopping cart application with react',
         type: 'react',
-        github: 'https://github.com/mhshuvoit/react-shopping-cart-app',
+        github: 'https://github.com/mlhnshuvo/react-shopping-cart-app',
         live: 'https://react-shopping-cart-mhs.netlify.app'
     },
     {
         image: EssayContest,
         name: 'This is an essay contest website that was created for a client',
         type: 'others',
-        github: 'https://github.com/mhshuvoit/essay-contest-website',
+        github: 'https://github.com/mlhnshuvo/essay-contest-website',
         live: 'https://essay-contest-website-mhs.netlify.app'
     },
     {
         image: PollAll,
         name: 'This is a simple poll app with react core features',
         type: 'react',
-        github: 'https://github.com/mhshuvoit/react-poll-app',
+        github: 'https://github.com/mlhnshuvo/react-poll-app',
         live: 'https://react-poll-app-mhs.netlify.app'
     },
     {
@@ -58,42 +58,42 @@ const projects = [
         image: TodoApp,
         name: 'This is a todo app with react core features',
         type: 'react',
-        github: 'https://github.com/mhshuvoit/react-todo-app',
+        github: 'https://github.com/mlhnshuvo/react-todo-app',
         live: 'https://react-todo-app-mhs.netlify.app'
     },
     {
         image: ReactBlogApp,
         name: 'This is react blog app with third party API.',
         type: 'react',
-        github: 'https://github.com/mhshuvoit/blog-app',
+        github: 'https://github.com/mlhnshuvo/blog-app',
         live: 'https://blog-app-mhs.netlify.app'
     },
     {
         image: WeatherApp,
         name: 'This is a simple weather app with DOM',
         type: 'others',
-        github: 'https://github.com/mhshuvoit/js-weather-app-with-dom',
+        github: 'https://github.com/mlhnshuvo/js-weather-app-with-dom',
         live: 'https://js-weather-app-with-dom-mhs.herokuapp.com'
     },
     {
         image: MyStaticPortfolio,
         name: 'This is first portfolio with HTML, CSS',
         type: 'others',
-        github: 'https://github.com/mhshuvoit/static-portfolio',
+        github: 'https://github.com/mlhnshuvo/static-portfolio',
         live: 'https://static-portfolio-mhs.netlify.app'
     },
     {
         image: PstToHtml,
         name: 'PSD to HTML landing  page',
         type: 'others',
-        github: 'https://github.com/mhshuvoit/psd-to-html',
+        github: 'https://github.com/mlhnshuvo/psd-to-html',
         live: 'https://psd-to-html-mhs.netlify.app'
     },
     {
         image: LandingPage,
         name: 'A simple landing page with html, css and totally responsive',
         type: 'others',
-        github: 'https://github.com/mhshuvoit/landing-page',
+        github: 'https://github.com/mlhnshuvo/landing-page',
         live: 'https://landing-page-mhs.netlify.app'
     }
 ]
