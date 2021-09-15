@@ -38,7 +38,7 @@ const projects = [
         name: 'This is an essay contest website that was created for a client',
         type: 'others',
         github: 'https://github.com/mlhnshuvo/essay-contest-website',
-        live: 'https://essay-contest-website-mhs.netlify.app'
+        live: 'https://essaycontest.monomousumi.com'
     },
     {
         image: PollAll,
