@@ -36,7 +36,7 @@ const projects = [
     {
         image: EssayContest,
         name: 'This is an essay contest website that was created for a client',
-        type: 'others',
+        type: 'react',
         github: 'https://github.com/mlhnshuvo/essay-contest-website',
         live: 'https://essaycontest.monomousumi.com'
     },
