@@ -37,7 +37,7 @@ app.post('/send', (req, res) => {
         from: process.env.GMAIL_USER,
         to: process.env.ADMIT_USER,
         subject: "Message from your portfolio",
-        html: messageHtml,
+        html: messageHtml,  
     })
         .then(() => {
             res.send('Message sent to admin email')
