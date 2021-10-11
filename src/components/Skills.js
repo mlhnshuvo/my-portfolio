@@ -55,7 +55,7 @@ const Skills = ({ goTo }) => {
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Material UI</p>
-                        <ProgressBar className="skills__bar" now={75} label={`${75}%`} />
+                        <ProgressBar className="skills__bar" now={70} label={`${70}%`} />
                     </div>
                 </div>
                 <div className="skills__backend">
@@ -83,7 +83,7 @@ const Skills = ({ goTo }) => {
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">Webpack</p>
-                        <ProgressBar className="skills__bar" now={60} label={`${60}%`} />
+                        <ProgressBar className="skills__bar" now={50} label={`${50}%`} />
                     </div>
                     <div className="skills__main">
                         <p className="skills__name">JOSN</p>

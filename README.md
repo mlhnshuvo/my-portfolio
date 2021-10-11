@@ -1,6 +1,6 @@
 # My-Portfolio
 
-This is my portfolio. It lives at https://mahamudulhasanshuvo.netlify.app
+This is my portfolio. It lives at https://mlhnshuvo.com
 
 ```bash
 Feature:
@@ -13,6 +13,7 @@ Technology:
 • Nodejs
 • Expressjs
 • SMTP server
+• Nodemailer
 • Heroku
 • Netlify
 ```
@@ -24,18 +25,9 @@ Technology:
 Install the dependencies...
 ```bash
 npm install
-cd client
-npm install
-```
-
-In backend and frontend just hit...
-```bash
-npm start
-cd ..
 npm start
 ```
 
 ```bash
-Backend will run on port 5000
 Frontend will run on http://localhost:3000
 ```
