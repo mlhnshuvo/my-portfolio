@@ -11,6 +11,7 @@ import WeatherApp from "./assets/images/projects/js-weather-app-with-dom.jpg";
 import EssayContest from "./assets/images/projects/essay-contest-website.jpg";
 import PokemonApp from "./assets/images/projects/pokemon-app.png";
 import EcommerceApp from "./assets/images/projects/ecommerce-app.jpg";
+import BingoGame from "./assets/images/projects/bingoGame.png";
 
 const projects = [
   {
@@ -26,6 +27,13 @@ const projects = [
     type: "mern",
     github: "https://github.com/mlhnshuvo/ecommerce-app",
     live: "https://ecommerce-app-mhs.netlify.app",
+  },
+  {
+    image: BingoGame,
+    name: "This is a mern stack bingo game for a client",
+    type: "mern",
+    github: "https://github.com/mlhnshuvo/bingo-game",
+    live: "https://bingo-game-mhs.netlify.app",
   },
   {
     image: FaceBookLite,
