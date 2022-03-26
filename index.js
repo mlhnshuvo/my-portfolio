@@ -9,19 +9,19 @@ app.use(cors());
 
 let transporter = nodemailer.createTransport({
   host: process.env.GMAIL_USER,
+  port: 587,
+  secure: false,
   service: "gmail",
-  port: 465,
-  secure: true,
   auth: {
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_PASSWORD,
   },
-  enableSsl: true,
 });
 
 const port = process.env.PORT || 5000;
 
 app.post("/send", (req, res) => {
+  console.log(req.body);
   const { name, email, message } = req.body;
   let messageHtml = `
     <div>
