@@ -32,7 +32,7 @@ app.post("/send", (req, res) => {
   transporter
     .sendMail({
       from: process.env.GMAIL_USER,
-      to: email,
+      to: process.env.ADMIN_USER,
       subject: "Message from your portfolio",
       html: messageHtml,
     })
