@@ -1,22 +1,18 @@
 require("dotenv").config();
 const express = require("express");
 const nodemailer = require("nodemailer");
+const sendinBlue = require("nodemailer-sendinblue-transport");
 const cors = require("cors");
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-let transporter = nodemailer.createTransport({
-  host: process.env.GMAIL_USER,
-  port: 587,
-  secure: false,
-  service: "gmail",
-  auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_PASSWORD,
-  },
-});
+let transporter = nodemailer.createTransport(
+  sendinBlue({
+    apiKey: process.env.SENDINBLUE,
+  })
+);
 
 const port = process.env.PORT || 5000;
 
