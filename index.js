@@ -8,11 +8,15 @@ app.use(express.json());
 app.use(cors());
 
 let transporter = nodemailer.createTransport({
+  host: process.env.GMAIL_USER,
   service: "gmail",
+  port: 465,
+  secure: true,
   auth: {
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_PASSWORD,
   },
+  enableSsl: true,
 });
 
 const port = process.env.PORT || 5000;
