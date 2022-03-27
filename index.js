@@ -1,23 +1,21 @@
 require("dotenv").config();
 const express = require("express");
 const nodemailer = require("nodemailer");
-const sendinBlue = require("nodemailer-sendinblue-transport");
 const cors = require("cors");
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-let transporter = nodemailer.createTransport(
-  sendinBlue({
-    apiKey: process.env.SENDINBLUE,
-  })
-);
-
-const port = process.env.PORT || 5000;
+let transporter = nodemailer.createTransport({
+  service: "SendinBlue",
+  auth: {
+    user: process.env.SENDINBLUE_USER,
+    pass: process.env.SENDINBLUE_PASS,
+  },
+});
 
 app.post("/send", (req, res) => {
-  console.log(req.body);
   const { name, email, message } = req.body;
   let messageHtml = `
     <div>
@@ -43,6 +41,8 @@ app.post("/send", (req, res) => {
 app.get("/", (req, res) => {
   res.send("This is a simple app for sending email");
 });
+
+const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(`App listening at ${port}`);
