@@ -12,6 +12,7 @@ import EssayContest from "./assets/images/projects/essay-contest-website.jpg";
 import PokemonApp from "./assets/images/projects/pokemon-app.png";
 import EcommerceApp from "./assets/images/projects/ecommerce-app.jpg";
 import BingoGame from "./assets/images/projects/bingoGame.png";
+import MonomousumiContests from "./assets/images/projects/monomousumicontest.jpg";
 
 const projects = [
   {
@@ -27,6 +28,13 @@ const projects = [
     type: "mern",
     github: "https://github.com/mlhnshuvo/ecommerce-app",
     live: "https://ecommerce-app-mhs.netlify.app",
+  },
+  {
+    image: MonomousumiContests,
+    name: "Article contest application of students",
+    type: "mern",
+    github: "https://github.com/mlhnshuvo/monomousumicontest",
+    live: "https://www.monomousumicontest.com",
   },
   {
     image: BingoGame,
