@@ -64,7 +64,7 @@ const Skills = ({ goTo }) => {
           </div>
           <div className="skills__main">
             <p className="skills__name">Material UI</p>
-            <ProgressBar className="skills__bar" now={70} label={`${70}%`} />
+            <ProgressBar className="skills__bar" now={50} label={`${50}%`} />
           </div>
         </div>
         <div className="skills__backend">
@@ -72,7 +72,7 @@ const Skills = ({ goTo }) => {
           <hr />
           <div className="skills__main">
             <p className="skills__name">Nodejs</p>
-            <ProgressBar className="skills__bar" now={70} label={`${70}%`} />
+            <ProgressBar className="skills__bar" now={60} label={`${60}%`} />
           </div>
           <div className="skills__main">
             <p className="skills__name">Expressjs</p>
@@ -80,7 +80,7 @@ const Skills = ({ goTo }) => {
           </div>
           <div className="skills__main">
             <p className="skills__name">Mongodb</p>
-            <ProgressBar className="skills__bar" now={65} label={`${65}%`} />
+            <ProgressBar className="skills__bar" now={45} label={`${45}%`} />
           </div>
         </div>
         <div className="skills__tools">
@@ -92,7 +92,7 @@ const Skills = ({ goTo }) => {
           </div>
           <div className="skills__main">
             <p className="skills__name">Webpack</p>
-            <ProgressBar className="skills__bar" now={50} label={`${50}%`} />
+            <ProgressBar className="skills__bar" now={45} label={`${45}%`} />
           </div>
           <div className="skills__main">
             <p className="skills__name">JOSN</p>
@@ -100,7 +100,7 @@ const Skills = ({ goTo }) => {
           </div>
           <div className="skills__main">
             <p className="skills__name">UML Diagram</p>
-            <ProgressBar className="skills__bar" now={90} label={`${90}%`} />
+            <ProgressBar className="skills__bar" now={85} label={`${85}%`} />
           </div>
         </div>
       </div>
